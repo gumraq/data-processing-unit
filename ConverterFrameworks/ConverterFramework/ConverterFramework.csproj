@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFrameworks>net40;net461;netstandard2.0</TargetFrameworks>
+    <Version>1.0.1</Version>
+    <Title>Converter Framework</Title>
+    <Authors>Elar.Pd.CirSpo</Authors>
+    <Owners>ELAR</Owners>
+    <Product>Converter Framework</Product>
+    <Description>Набор инструментов для конвентеров</Description>
+    <Copyright>Copyright 2019</Copyright>
+    <PackageReleaseNotes>Исходная версия</PackageReleaseNotes>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Company>Elar</Company>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ConverterTools.DaoBulkInsert" Version="2.0.0" />
+    <PackageReference Include="DataSourceProviders" Version="2.0.0" />
+    <PackageReference Include="DateTokenization" Version="2.0.0" />
+    <PackageReference Include="LoggerModules" Version="2.2.0" />
+    <PackageReference Include="PropertiesUpdaters" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>

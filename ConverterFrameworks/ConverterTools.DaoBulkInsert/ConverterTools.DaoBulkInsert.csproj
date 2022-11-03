@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFrameworks>net40;netstandard2.0</TargetFrameworks>
+    <Version>2.0.0</Version>
+    <Title>ConverterTools.DaoBulkInsert</Title>
+    <Authors>Elar.Pd.CirSpo</Authors>
+    <Owners>ELAR</Owners>
+    <Product>ConverterTools.DaoBulkInsert</Product>
+    <Description>Пакетная вставка в MS Access</Description>
+    <Copyright>Copyright 2019</Copyright>
+    <PackageReleaseNotes>Исходная версия</PackageReleaseNotes>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Company>Elar</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ConverterTools" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Office.Interop.Access.Dao" Version="15.0.4420.1017" />
+  </ItemGroup>
+
+</Project>

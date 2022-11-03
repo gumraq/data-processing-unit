@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFrameworks>net40;netstandard2.0</TargetFrameworks>
+    <Version>2.0.0</Version>
+    <Title>ConverterTools.MsSqlBulkInsert</Title>
+    <Authors>Elar.Pd.CirSpo</Authors>
+    <Owners>ELAR</Owners>
+    <Product>ConverterTools.MsSqlBulkInsert</Product>
+    <Description>Пакетная вставка в MS SQL Server</Description>
+    <Copyright>Copyright 2019</Copyright>
+    <PackageReleaseNotes>Исходная версия</PackageReleaseNotes>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Company>Elar</Company>
+  </PropertyGroup>
+
+</Project>

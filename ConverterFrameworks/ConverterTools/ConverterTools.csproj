@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <TargetFrameworks>net40;netstandard2.0</TargetFrameworks>
+    <Version>2.1.0</Version>
+    <Title>Converter Tools</Title>
+    <Authors>Elar.Pd.CirSpo</Authors>
+    <Owners>ELAR</Owners>
+    <Product>Converter Tools</Product>
+    <Description>Интерфейсы и сервисные классы для работы с конветерами.</Description>
+    <Copyright>Copyright 2019</Copyright>
+    <PackageReleaseNotes>Исходная версия</PackageReleaseNotes>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Company>Elar</Company>
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <FileVersion>2.1.0.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+    <PackageReference Include="System.Configuration.ConfigurationManager">
+      <Version>4.6.0</Version>
+    </PackageReference>
+  </ItemGroup>
+</Project>

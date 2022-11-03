@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConverterConsoleStartup": {
+      "commandName": "Project",
+      "commandLineArgs": "ConverterAssemblyPath=\"D:\\Projects\\TFS\\TechnoHub\\Converters\\R251DTomskNefteHimConverter\\R251DTomskNefteHimConverter\\bin\\Debug\\R251DTomskNefteHimConverter.dll\" ConverterConfigurationPath=\"D:\\Projects\\TFS\\TechnoHub\\Converters\\R251DTomskNefteHimConverter\\R251DTomskNefteHimConverter\\bin\\Debug\\converter.config\""
+    }
+  }
+}
